@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfDemoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDemoApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="392.513" Width="858.855">
+    <Grid>
+
+        <TextBox x:Name="txtWords" HorizontalAlignment="Left" Height="29" Margin="35,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="237" KeyUp="txtWords_KeyUp"/>
+        <Label x:Name="lblTransWords" Content="" HorizontalAlignment="Left" Margin="35,78,0,0" VerticalAlignment="Top" Height="29" Width="582"/>
+        <Button x:Name="btnTranslate" Content="Translate" HorizontalAlignment="Left" Margin="344,30,0,0" VerticalAlignment="Top" Width="83" Height="38" Click="btnTranslate_Click"/>
+
+    </Grid>
+</Window>
